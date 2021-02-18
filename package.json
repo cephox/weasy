@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/cephox/weasy/issues"
   },
-  "homepage": "https://github.com/cephox/weasy#readme"
+  "homepage": "https://github.com/cephox/weasy#readme",
+  "dependencies": {
+    "ws": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.0"
+  }
 }
