@@ -1,0 +1,19 @@
+{
+  "name": "weasy",
+  "version": "1.0.0",
+  "description": "A simple library to help with websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cephox/weasy.git"
+  },
+  "author": "ce_phox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cephox/weasy/issues"
+  },
+  "homepage": "https://github.com/cephox/weasy#readme"
+}
