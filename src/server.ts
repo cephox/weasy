@@ -11,7 +11,7 @@ export interface PacketResult {
     }
 }
 
-export class Server extends WSServer {
+export class WebsocketServer extends WSServer {
     private connections: {id: string, ws: lws}[] = []
 
     private packetHandler: {[key: string]: (data: any, ws: lws, id: string) => Promise<PacketResult>}
