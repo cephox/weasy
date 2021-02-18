@@ -2,9 +2,10 @@
   "name": "weasy",
   "version": "1.0.0",
   "description": "A simple library to help with websockets",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
